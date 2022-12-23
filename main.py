@@ -4,14 +4,14 @@ def calculate(c,v,d):
   for i in range(0,c):
     if i%2==0:
       v=v+2
-      d=d-4/v
+      d=d+4/v
       print("pi with the iteration",i+1,"is\n")
-      print(abs(d),"\n\n")
+      print(d,"\n\n")
     else:
       v=v+2
-      d=d+4/v
-      print("pi with the iteration",i,"is\n")
-      print(abs(d),"\n\n")
+      d=d-4/v
+      print("pi with the iteration",i+1,"is\n")
+      print(d,"\n\n")
 task=0
 while True:
   try:
